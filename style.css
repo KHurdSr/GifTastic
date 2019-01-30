@@ -1,0 +1,40 @@
+button, 
+form {
+	margin: 5px;
+}
+
+button {color: orangered}
+
+.jumbotron {
+	font-weight: bold;
+	background-color: black;
+	color: #cdbfe3;
+
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+	background-color: orangered;
+	border: #3B5998;
+	color: white;
+}
+
+input{
+	background-color: grey ;
+}
+
+.item {
+	padding: 50px;
+	display: inline-block;
+}
+
+p{
+	background-color: #563d7c;
+	color: #cdbfe3;	
+	padding: 0px;
+}
