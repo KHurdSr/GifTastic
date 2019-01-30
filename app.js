@@ -13,7 +13,7 @@ $(document).ready(function(){
     
     a.addClass('artist');
     
-    a.attr('data-name', artists[i]);
+    a.attr('data-search', artists[i]);
     
     a.text(artists[i]);
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
     $(document).on('click', 'button',  function() {
             
      $('#GIFArea').empty(); 
-     var b = $(this).attr('data-name');		
+     var b = $(this).attr('data-search');		
      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + b + "&api_key=8THCLlv3pAP45AtRReYofGFGJBh2fqPB";  
      console.log(queryURL); 
 

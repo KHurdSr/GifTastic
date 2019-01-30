@@ -21,7 +21,7 @@ button {color: orangered}
 button, html input[type=button], input[type=reset], input[type=submit] {
 	background-color: orangered;
 	border: #3B5998;
-	color: white;
+	color: turquoise;
 }
 
 input{
